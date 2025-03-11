@@ -24,6 +24,14 @@ const USER_CONFIG = {
     earthyLoveWords: true,
   },
 
+   // 配置天行API
+  TIAN_API: {
+    // 配置你的天行API KEY
+    key: 'ef6f49af5152ab483541f1274980f8cb',
+    // 开启天气功能，这里的数字代表获取未来几天的天气，建议填3
+    weather: 3,
+  },
+
   USERS: [
     {
       // 想要发送的人的名字
